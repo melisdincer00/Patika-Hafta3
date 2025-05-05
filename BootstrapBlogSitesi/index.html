@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Sitesi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">Blog Sitesi</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+      <li class="nav-item"><a class="nav-link" href="post.html">Blog Gönderisi</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- JUMBOTRON -->
+<div class="container mt-4">
+  <div class="p-5 mb-4 bg-warning text-white rounded-3 shadow-sm">
+    <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold">Blog Dünyasına Hoş Geldiniz</h1>
+      <p class="fs-4">Yazılım, teknoloji ve yaşam üzerine yazılmış içerikleri burada bulabilirsiniz.</p>
+    </div>
+  </div>
+</div>
+
+<!-- BLOG KARTLARI -->
+<div class="container mb-5">
+  <h2 class="mb-4">Son Gönderiler</h2>
+  <div class="row g-4">
+
+    <!-- 1. Kart -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://picsum.photos/id/237/400/300" class="card-img-top" alt="Blog görseli">
+        <div class="card-body">
+          <h5 class="card-title">Blog Gönderisi Başlığı</h5>
+          <p class="card-text">Bu, blog gönderisi özetidir. Daha fazlasını okumak için başlığa tıklayın...</p>
+          <a href="post.html" class="btn btn-outline-danger">Devamını Oku</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Kart -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://picsum.photos/seed/picsum/400/300" class="card-img-top" alt="Başka blog">
+        <div class="card-body">
+          <h5 class="card-title">Başka Bir Gönderi</h5>
+          <p class="card-text">Bu, başka bir gönderi özetidir. Daha fazlası için tıklayın...</p>
+          <a href="post.html" class="btn btn-outline-danger">Devamını Oku</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Kart -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 shadow-sm">
+        <img src="https://picsum.photos/id/1025/400/300" class="card-img-top" alt="Yeni blog">
+        <div class="card-body">
+          <h5 class="card-title">Yeni Bir Yazı</h5>
+          <p class="card-text">Bu gönderide gündemdeki konulara farklı bir bakış sunuluyor. Devamını görmek için tıklayın...</p>
+          <a href="post.html" class="btn btn-outline-danger">Devamını Oku</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+  © 2025 Blog Sitesi
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
